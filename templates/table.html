@@ -1,0 +1,23 @@
+{% extends 'bootstrap/base.html' %}
+
+{% block title %}
+    Title
+{% endblock %}
+
+{% block content %}
+<table class = "table">
+    <tr>
+    {% for column in table.column_names %}
+        <th scope="col">{{ column }}</th>
+    {% endfor %}
+    </tr>
+{%for i in range(count)%}
+    <tr>
+    {%for column in table.data%}
+        <td>{{ table.data[column][i] }}</td>
+    {% endfor %}
+    </tr>
+{% endfor %}
+</table>
+{% endblock %}
+

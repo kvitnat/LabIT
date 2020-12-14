@@ -1,0 +1,10 @@
+{
+    "column_names": [ "int_column", "str_column" ],
+    "types":        [ 0, 3 ],
+    "data":
+    {
+        "int_column": [ 1,     2,     3 ],
+        "str_column": [ "one", "two", "three" ]
+    }
+}
+

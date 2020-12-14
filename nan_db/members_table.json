@@ -1,0 +1,48 @@
+{
+    "column_names": [
+        "id",
+        "name",
+        "age",
+        "programming_language",
+        "instrument"
+    ],
+    "types": [
+        0,
+        3,
+        0,
+        3,
+        3
+    ],
+    "data": {
+        "id": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "name": [
+            "Nastya",
+            "Andrey",
+            "Vadim",
+            "Natasha"
+        ],
+        "age": [
+            20,
+            19,
+            21,
+            20
+        ],
+        "programming_language": [
+            "Java",
+            "C#",
+            "C++",
+            "C++"
+        ],
+        "instrument": [
+            "bass",
+            "piano",
+            "guitar",
+            "vocals"
+        ]
+    }
+}

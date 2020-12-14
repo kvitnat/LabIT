@@ -1,0 +1,15 @@
+{% extends 'bootstrap/base.html' %}
+
+{% block title %}
+    Home page
+{% endblock %}
+
+{% block content %}
+<br>Database: nan_db
+<br>Tables:
+<ul>
+{% for table in tables %}
+    <li><a href = "{{ url_for('table', my_table=table) }}">{{table}}</a></li>
+{% endfor %}
+</ul>
+{% endblock %}

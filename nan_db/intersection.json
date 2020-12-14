@@ -1,0 +1,22 @@
+{
+    "column_names": [
+        "name",
+        "artist"
+    ],
+    "types": [
+        3,
+        3
+    ],
+    "data": {
+        "name": [
+            "Paranoid Android",
+            "Boatman",
+            "Space Song"
+        ],
+        "artist": [
+            "Radiohead",
+            "Balthazar",
+            "Beach House"
+        ]
+    }
+}
